@@ -1,0 +1,55 @@
+{
+  "editor.formatOnPaste": false,
+  "window.zoomLevel": 1,
+  "editor.fontSize": 16,
+  "editor.wordWrap": "on",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "breadcrumbs.enabled": true,
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.node_modules": true
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[graphql]": {
+    "editor.tabSize": 2
+  },
+  "[c]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": false,
+  "prettier.trailingComma": "all",
+  "prettier.eslintIntegration": true,
+  "prettier.tabWidth": 2,
+  "workbench.fontAliasing": "antialiased",
+  "workbench.startupEditor": "none",
+  "importCost.bundleSizeDecoration": "minified",
+  "eslint.alwaysShowStatus": true,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.fontWeight": "500",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "git.enableSmartCommit": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "C_Cpp.formatting": "Disabled",
+  "C_Cpp.updateChannel": "Insiders"
+}
