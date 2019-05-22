@@ -1,8 +1,15 @@
 {
   "editor.formatOnPaste": false,
-  "window.zoomLevel": 1,
-  "editor.fontSize": 16,
+  "editor.detectIndentation": true,
+  "window.zoomLevel": 0.8,
+  "editor.fontSize": 20,
+  "terminal.integrated.fontSize": 20,
+  "explorer.openEditors.visible": 0,
+  "workbench.sideBar.location": "left",
   "editor.wordWrap": "on",
+  "editor.cursorBlinking": "solid",
+  "editor.lightbulb.enabled": false,
+  "editor.parameterHints.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "breadcrumbs.enabled": true,
   "editor.minimap.enabled": false,
@@ -15,41 +22,67 @@
     "**/.DS_Store": true,
     "**/.node_modules": true
   },
-  "[javascript]": {
-    "editor.tabSize": 2
-  },
-  "[typescriptreact]": {
-    "editor.tabSize": 2
-  },
-  "[typescript]": {
-    "editor.tabSize": 2
-  },
-  "[graphql]": {
-    "editor.tabSize": 2
-  },
-  "[c]": {
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2
-  },
   "editor.formatOnSave": true,
-  "prettier.singleQuote": false,
-  "prettier.trailingComma": "all",
-  "prettier.eslintIntegration": true,
-  "prettier.tabWidth": 2,
   "workbench.fontAliasing": "antialiased",
   "workbench.startupEditor": "none",
+  "workbench.panel.defaultLocation": "right",
   "importCost.bundleSizeDecoration": "minified",
   "eslint.alwaysShowStatus": true,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.tabCompletion": "on",
   "editor.snippetSuggestions": "top",
-  "editor.fontWeight": "500",
+  "editor.wordBasedSuggestions": false,
+  "editor.suggest.localityBonus": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "off",
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
   "git.enableSmartCommit": true,
   "workbench.iconTheme": "material-icon-theme",
-  "C_Cpp.formatting": "Disabled",
-  "C_Cpp.updateChannel": "Insiders"
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "boundary",
+  "editor.glyphMargin": false,
+  "editor.folding": false,
+  "javascript.suggest.autoImports": false,
+  "javascript.validate.enable": false,
+  "[javascript]": {
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.suggest.filteredTypes": {
+      "keyword": false
+    }
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.build": true,
+    "**/.gh-pages": true
+  },
+  "eslint.autoFixOnSave": false,
+  "editor.lineNumbers": "on",
+  "prettier.eslintIntegration": false,
+  "prettier.bracketSpacing": false,
+  "prettier.printWidth": 80,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "all",
+  "prettier.jsxBracketSameLine": false,
+  "prettier.semi": false,
+  "prettier.useTabs": false,
+  "prettier.proseWrap": "always",
+  "workbench.colorTheme": "Night Owl",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
+  "typescript.suggest.autoImports": false,
+  "editor.suggestSelection": "first",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
